@@ -42,36 +42,12 @@
                                     <rect key="frame" x="39" y="222" width="68" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODC-UF-GW8">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Play Game">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="67" y="275" width="75" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="playGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ikG-Mr-DRL"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="catVdog.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MVQ-qb-kvD">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="20" width="292" height="154"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEa-qy-DiP">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Clear Game">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="178" y="275" width="82" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="clearGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Szm-JX-pte"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bad Player's Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ULl-xs-TlK">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -86,9 +62,33 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="32" y="313" width="261" height="208"/>
+                                    <rect key="frame" x="25" y="313" width="283" height="208"/>
                                 </variation>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODC-UF-GW8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Play Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="268" width="75" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="playGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ikG-Mr-DRL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEa-qy-DiP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Clear Game">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="268" width="82" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clearGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Szm-JX-pte"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -96,11 +96,11 @@
                                 <exclude reference="QR9-LJ-hk9"/>
                                 <exclude reference="R2d-UD-Kht"/>
                                 <exclude reference="gZz-0Y-zUd"/>
-                                <exclude reference="ODC-UF-GW8"/>
                                 <exclude reference="MVQ-qb-kvD"/>
-                                <exclude reference="dEa-qy-DiP"/>
                                 <exclude reference="ULl-xs-TlK"/>
                                 <exclude reference="4jM-lb-3aB"/>
+                                <exclude reference="ODC-UF-GW8"/>
+                                <exclude reference="dEa-qy-DiP"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -108,11 +108,11 @@
                                 <include reference="QR9-LJ-hk9"/>
                                 <include reference="R2d-UD-Kht"/>
                                 <include reference="gZz-0Y-zUd"/>
-                                <include reference="ODC-UF-GW8"/>
                                 <include reference="MVQ-qb-kvD"/>
-                                <include reference="dEa-qy-DiP"/>
                                 <include reference="ULl-xs-TlK"/>
                                 <include reference="4jM-lb-3aB"/>
+                                <include reference="ODC-UF-GW8"/>
+                                <include reference="dEa-qy-DiP"/>
                             </mask>
                         </variation>
                     </view>
