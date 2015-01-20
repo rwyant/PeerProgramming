@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85786D461A6E0A7E00940932 /* catVdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85786D451A6E0A7E00940932 /* catVdog.jpg */; };
 		85D55BD61A6877DB0071C2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D55BD51A6877DB0071C2DF /* AppDelegate.swift */; };
 		85D55BD81A6877DB0071C2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D55BD71A6877DB0071C2DF /* ViewController.swift */; };
 		85D55BDB1A6877DB0071C2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D55BD91A6877DB0071C2DF /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85786D451A6E0A7E00940932 /* catVdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catVdog.jpg; sourceTree = "<group>"; };
 		85D55BD01A6877DB0071C2DF /* Peer Programming - A Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peer Programming - A Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D55BD41A6877DB0071C2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85D55BD51A6877DB0071C2DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,12 +93,12 @@
 				85D55BD91A6877DB0071C2DF /* Main.storyboard */,
 				85D55BDC1A6877DB0071C2DF /* Images.xcassets */,
 				85D55BDE1A6877DB0071C2DF /* LaunchScreen.xib */,
-				85D55BD31A6877DB0071C2DF /* Supporting Files */,
 				85D55BF51A6877EE0071C2DF /* Player.swift */,
 				85D55BF71A6877F70071C2DF /* GoodPlayer.swift */,
 				85D55BF91A6878000071C2DF /* BadPlayer.swift */,
 				85D55BFB1A6879610071C2DF /* MyPlayground.playground */,
 				85D55BFC1A6882D30071C2DF /* Match.swift */,
+				85D55BD31A6877DB0071C2DF /* Supporting Files */,
 			);
 			path = "Peer Programming - A Game";
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 		85D55BD31A6877DB0071C2DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85786D451A6E0A7E00940932 /* catVdog.jpg */,
 				85D55BD41A6877DB0071C2DF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -208,6 +211,7 @@
 			files = (
 				85D55BDB1A6877DB0071C2DF /* Main.storyboard in Resources */,
 				85D55BE01A6877DB0071C2DF /* LaunchScreen.xib in Resources */,
+				85786D461A6E0A7E00940932 /* catVdog.jpg in Resources */,
 				85D55BDD1A6877DB0071C2DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +427,7 @@
 				85D55BF11A6877DB0071C2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85D55BF21A6877DB0071C2DF /* Build configuration list for PBXNativeTarget "Peer Programming - A GameTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				85D55BF41A6877DB0071C2DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

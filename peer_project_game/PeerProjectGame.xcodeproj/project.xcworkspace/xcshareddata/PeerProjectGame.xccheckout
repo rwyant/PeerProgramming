@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>97DC5EDF-249D-48B0-965F-C328D74B2028</string>
+	<string>B7E37161-E254-43BB-8FF9-A7E0FF0D94FC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Peer Programming - A Game</string>
+	<string>PeerProjectGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1A209F242113980157BEE34687685A250E130CB1</key>
 		<string>https://github.com/rwyant/PeerProgramming.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Peer Programming - A Game/Peer Programming - A Game.xcodeproj</string>
+	<string>peer_project_game/PeerProjectGame.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1A209F242113980157BEE34687685A250E130CB1</key>

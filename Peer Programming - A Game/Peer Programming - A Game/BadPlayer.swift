@@ -8,37 +8,61 @@
 
 import Foundation
 
+// Create a BadPlayer sub-class of Player
+
 class BadPlayer {
     
     var myBadPlayer = Player()
+    var name = "Player 2"
+    var health = 100
     
-    //Attack One -- Uppercut to the FACE! Worth 38 points.
-    func one () -> (String,Int) {
-        
+    init (name:String) {
+        self.myBadPlayer.name = name
+    }
+    
+    //Attack One -- Flick! Worth 8 points.
+    func one () -> (Int) {
         myBadPlayer.message = "Flick!"
         myBadPlayer.damage = 8
         myBadPlayer.attack()
-        var result = (myBadPlayer.message,myBadPlayer.damage)
+        var result = myBadPlayer.damage
+        println("   --\(myBadPlayer.message) Your damage was \(myBadPlayer.damage).")
         return result
     }
     
-    //Attack Two -- Low Blow! Worth 42 points.
-    func two () -> (String, Int) {
+    //Attack Two -- Indian Burn! Worth 12 points.
+    func two () -> (Int) {
         myBadPlayer.message = "Indian Burn!"
         myBadPlayer.damage = 12
         myBadPlayer.attack()
-        var result = (myBadPlayer.message,myBadPlayer.damage)
+        var result = myBadPlayer.damage
+        println("   --\(myBadPlayer.message) Your damage was \(myBadPlayer.damage).")
+        return result
+    }
+    
+    func checkHealth () -> (String) {
+        var result = "Your current health is \(myBadPlayer.health)."
         return result
     }
     
     //Randomizing Attack for Bad Player
-    func randomizedAttack () {
+    func randomizedAttack () -> (Int) {
         var random = rand()
         if random % 2 == 0 {
-            one()
+            return one()
         } else {
-            two()
+            return two()
         }
+    }
+    
+    func isAlive() -> Bool {
+        var isAlive = true
+        if self.myBadPlayer.health > 0 {
+            isAlive = true
+        } else {
+            isAlive = false
+        }
+        return isAlive
     }
     
 }

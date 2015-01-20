@@ -8,19 +8,14 @@
 
 import Foundation
 
+// Create a Player superclass
+
 class Player {
+    var name = ""
     var message = "Boom!"
     var damage = 0
     var health = 100
-    func isAlive() -> Bool {
-        var isAlive = true
-        if health > 0 {
-            isAlive = true
-        } else {
-            isAlive = false
-        }
-        return isAlive
-    }
+    
     func attack () -> (String,Int) {
         var result = (message, damage)
         return result
