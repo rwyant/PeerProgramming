@@ -23,7 +23,7 @@ class BadPlayer {
     //Attack One -- Flick! Worth 8 points.
     func one () -> (Int) {
         myBadPlayer.message = "Flick!"
-        myBadPlayer.damage = 12
+        myBadPlayer.damage = 27
         myBadPlayer.attack()
         var result = myBadPlayer.damage
         println("   --\(myBadPlayer.message) Your damage was \(myBadPlayer.damage).")
@@ -33,7 +33,7 @@ class BadPlayer {
     //Attack Two -- Indian Burn! Worth 12 points.
     func two () -> (Int) {
         myBadPlayer.message = "Indian Burn!"
-        myBadPlayer.damage = 19
+        myBadPlayer.damage = 31
         myBadPlayer.attack()
         var result = myBadPlayer.damage
         println("   --\(myBadPlayer.message) Your damage was \(myBadPlayer.damage).")

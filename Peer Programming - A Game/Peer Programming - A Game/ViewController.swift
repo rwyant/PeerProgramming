@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     @IBAction func clearGameButton(sender: AnyObject) {
         goodPlayerName.text = ""
         badPlayerName.text = ""
-        logText.text = "Logs from the match will be posted here."
+        logText.text = "The logs from the match will be posted here."
         self.view.endEditing(true)
     }
     

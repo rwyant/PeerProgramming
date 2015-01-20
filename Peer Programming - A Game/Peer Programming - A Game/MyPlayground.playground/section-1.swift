@@ -159,7 +159,7 @@ class Match {
         myBadPlayer.health = myBadPlayer.health - myGoodPlayer.randomizedAttack()
             println("   \(myBadPlayer.name)'s current health is \(myBadPlayer.health)")
         } else if myBadPlayer.health < 0 {
-            println("There is a winner!! Congrats, \(myBadPlayer.name), for losing to \(myGoodPlayer.name)!")
+            println("There is a winner!! Congrats, \(myBadPlayer.name.uppercaseString), for losing to \(myGoodPlayer.name)!")
         } else {
             println("There is a winner!! Congrats, \(myGoodPlayer.name), for losing to \(myBadPlayer.name)!")
             }
