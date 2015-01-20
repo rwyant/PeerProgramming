@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		855EC5261A6EC3D90017C4A0 /* icon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 855EC5251A6EC3D90017C4A0 /* icon60x60.png */; };
+		855EC5281A6EC4D90017C4A0 /* icon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 855EC5271A6EC4D90017C4A0 /* icon72x72@2x.png */; };
 		85786D461A6E0A7E00940932 /* catVdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85786D451A6E0A7E00940932 /* catVdog.jpg */; };
 		85D55BD61A6877DB0071C2DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D55BD51A6877DB0071C2DF /* AppDelegate.swift */; };
 		85D55BD81A6877DB0071C2DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D55BD71A6877DB0071C2DF /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		855EC5251A6EC3D90017C4A0 /* icon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60x60.png; sourceTree = "<group>"; };
+		855EC5271A6EC4D90017C4A0 /* icon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon72x72@2x.png"; sourceTree = "<group>"; };
 		85786D451A6E0A7E00940932 /* catVdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catVdog.jpg; sourceTree = "<group>"; };
 		85D55BD01A6877DB0071C2DF /* Peer Programming - A Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peer Programming - A Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D55BD41A6877DB0071C2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 		85D55BD31A6877DB0071C2DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				855EC5271A6EC4D90017C4A0 /* icon72x72@2x.png */,
+				855EC5251A6EC3D90017C4A0 /* icon60x60.png */,
 				85786D451A6E0A7E00940932 /* catVdog.jpg */,
 				85D55BD41A6877DB0071C2DF /* Info.plist */,
 			);
@@ -211,8 +217,10 @@
 			files = (
 				85D55BDB1A6877DB0071C2DF /* Main.storyboard in Resources */,
 				85D55BE01A6877DB0071C2DF /* LaunchScreen.xib in Resources */,
+				855EC5281A6EC4D90017C4A0 /* icon72x72@2x.png in Resources */,
 				85786D461A6E0A7E00940932 /* catVdog.jpg in Resources */,
 				85D55BDD1A6877DB0071C2DF /* Images.xcassets in Resources */,
+				855EC5261A6EC3D90017C4A0 /* icon60x60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

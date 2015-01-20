@@ -25,7 +25,7 @@ class GoodPlayer {
     func one () -> (Int) {
         
         myGoodPlayer.message = "Uppercut to the FACE!"
-        myGoodPlayer.damage = 38
+        myGoodPlayer.damage = 8
         myGoodPlayer.attack()
         var result = myGoodPlayer.damage
         println("   --\(myGoodPlayer.message) Your damage was \(myGoodPlayer.damage).")
@@ -35,7 +35,7 @@ class GoodPlayer {
     //Attack Two -- Low Blow! Worth 42 points.
     func two () -> (Int) {
         myGoodPlayer.message = "Low blow [embarassed emoji]."
-        myGoodPlayer.damage = 42
+        myGoodPlayer.damage = 51
         myGoodPlayer.attack()
         var result = myGoodPlayer.damage
         println("   --\(myGoodPlayer.message) Your damage was \(myGoodPlayer.damage).")
